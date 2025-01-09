@@ -4,6 +4,7 @@ function random(){
     
     return randNum;
 }
+
 function sum(num1, num2){
     var somma = num1 + num2
     var verifica = false;
@@ -21,7 +22,6 @@ if(numeroUser > 5){
 }else if(numeroUser < 1){
     numeroUser = parseInt(prompt("il numero scelto è minore di 1, per favore inserire un numero da 1 a 5"));
 }
-
 
 let scelta = prompt("La somma del numero scelto + un numero casuale (nello stesso range) sarà pari o dispari?");
 if(scelta != "pari" & scelta != "dispari"){
